@@ -6,12 +6,12 @@ Your task is to download data https://www.kaggle.com/olistbr/brazilian-ecommerce
 
 1) Retrieve Brazilian eCommerce data from Kaggle place json document in object storage 
 (can use provided Docker container with MinIO or cloud storage provider of your choice)
--
+
 https://www.kaggle.com/olistbr/brazilian-ecommerce
-customers: https://www.kaggle.com/olistbr/brazilian-ecommerce?select=olist_customers_dataset.csv
-order_items: https://www.kaggle.com/olistbr/brazilian-ecommerce?select=olist_order_items_dataset.csv
-orders: https://www.kaggle.com/olistbr/brazilian-ecommerce?select=olist_orders_dataset.csv
-products: https://www.kaggle.com/olistbr/brazilian-ecommerce?select=olist_products_dataset.csv
+- customers: https://www.kaggle.com/olistbr/brazilian-ecommerce?select=olist_customers_dataset.csv
+- order_items: https://www.kaggle.com/olistbr/brazilian-ecommerce?select=olist_order_items_dataset.csv
+- orders: https://www.kaggle.com/olistbr/brazilian-ecommerce?select=olist_orders_dataset.csv
+- products: https://www.kaggle.com/olistbr/brazilian-ecommerce?select=olist_products_dataset.csv
 
 2) Ingest files from object store into a database using a custom python script or Singer. 
 (can use provided Postgres container, other options include MySQL or SQLite)
