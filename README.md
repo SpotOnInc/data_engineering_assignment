@@ -1,7 +1,7 @@
 # Data Engineering Assignment
 
 ## Assignment
-Your task is to automate download and ingestion of the data from the [Brazilian ecommerce data set from Kaggle](https://www.kaggle.com/olistbr/brazilian-ecommerce). 
+Your task is to automate the download and ingestion of the [Brazilian ecommerce data set](https://www.kaggle.com/olistbr/brazilian-ecommerce) using the Kaggle API. 
 
 1) Fork this repo to your account
 2) Create an account with Kaggle if you don't already have one.  You will need this to access their API to retreive data for the assigment.
