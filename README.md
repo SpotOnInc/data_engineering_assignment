@@ -5,7 +5,7 @@ Your task is to automate the download and ingestion of the [Brazilian ecommerce 
 
 1) Fork this repo to your account
 2) Create an account with Kaggle if you don't already have one.  You will need this to access their API to retreive data for the assigment.
-3) Create a script to retrieve Brazilian eCommerce data from Kaggle api and place the files listed below in object storage.
+3) Create a script to retrieve Brazilian eCommerce data from the Kaggle API and place the files listed below in object storage.
   - Minio is provided in docker compose or feel free to use your choice of object storage (e.g. Google Cloud Storage, AWS S3)
   - **Load only the following datasets:**
   
