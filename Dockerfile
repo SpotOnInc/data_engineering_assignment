@@ -3,4 +3,6 @@ from python:3.8-buster
 
 # Fill me in
 
-COPY . . 
+RUN pip install kaggle
+WORKDIR /code
+COPY . /code

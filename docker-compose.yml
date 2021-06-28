@@ -5,20 +5,32 @@ services:
   db:
     image: postgres
     ports:
-      -"5432:5432"
+      - "5432:5432"
     environment:
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: postgres
 
   minio-s3:
     image: minio/minio
+    ports:
+      - "9000:9000"
     environment:
-      MINIO_ACCESS_KEY: spoton
-      MINIO_SECRET_KEY: spoton
+      MINIO_ACCESS_KEY: minioadmin
+      MINIO_SECRET_KEY: minioadmin
+    command: server /data
 
   ingest:
     depends_on:
       - db
       - minio-s3
+        #    command: "
+        #      python ingest.py
+        #      python load_minio.py
+        #      "
+    volumes:
+      - "./:/code"
     build:
       context: .
+    environment:
+      KAGGLE_KEY: $KAGGLE_KEY
+      KAGGLE_USERNAME: $KAGGLE_USERNAME
