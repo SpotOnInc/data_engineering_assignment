@@ -1,8 +1,10 @@
 # Docker build ingestion image
-from python:3.8-buster
+FROM python:3.8-buster
 
 # Fill me in
 
-RUN pip install kaggle
+COPY requirements.txt .
+RUN pip install -r requirements.txt
+
 WORKDIR /code
 COPY . /code
