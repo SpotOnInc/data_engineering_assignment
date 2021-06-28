@@ -23,10 +23,11 @@ services:
     depends_on:
       - db
       - minio-s3
-        #    command: "
-        #      python ingest.py
-        #      python load_minio.py
-        #      "
+    command: >
+      sh -c "
+        python ingest.py &&
+        python load_minio.py
+      "
     volumes:
       - "./:/code"
     build:
