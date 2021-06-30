@@ -27,6 +27,7 @@ services:
       sh -c "
         python ingest.py &&
         python load_minio.py
+        python load_postgres.py
       "
     volumes:
       - "./:/code"

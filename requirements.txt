@@ -1,2 +1,6 @@
 kaggle
 boto3
+pandas
+psycopg2
+sqlalchemy
+
