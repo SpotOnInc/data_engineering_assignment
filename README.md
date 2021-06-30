@@ -24,6 +24,6 @@ Your task is to automate the download and ingestion of the [Brazilian ecommerce 
 
 ## Acceptance Criteria
 - We will pulling from the master/main branch of your provided repo link
-- We should be able to run your code by running the following command `docker-compose run ingest`.
+- We should be able to run your code by running the following command `docker-compose up`.
 - We should be able to access the generated tables in the Postgres DB at `localhost:5432`.
 - **Note, feel free to use patterns that you might otherwise avoid if they save a significant amount of time.  However, be sure to call these out in your `nextsteps.md` and be prepared to discuss how you might implement given additional time.**
