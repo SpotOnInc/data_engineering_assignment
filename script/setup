@@ -1,0 +1,5 @@
+#!/bin/bash
+
+rm -f docker.env
+python3 script/setup.py
+
