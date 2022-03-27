@@ -1,0 +1,13 @@
+# !/bin/bash
+docker-compose up -d
+
+# Add sleep for dramatic effect, but really to give the script
+# enough time to fully ingest all of the data into the db 
+# before the script exits back to the shell
+echo 'Initalizing ingestion'
+sleep 1
+echo 'Downloading datasets from Kaggle'
+sleep 1
+echo 'Loading datasets into Minio S3'
+sleep 1
+echo 'Ingesting datasets into postgres'
