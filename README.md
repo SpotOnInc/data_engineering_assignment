@@ -15,7 +15,7 @@ Your task is to automate the download and ingestion of the [Brazilian ecommerce 
     olist_orders_dataset.csv
     olist_products_dataset.csv
     ```
-4) Ingest files from object storage into Postgres using Singer, python or your programming language of choice.  Provided is a base python image in the `Dockerfile` along with a Postgres instance that can be created using docker compose.  Your ingestion process should create a table for each file.  Here are some helpful links if you are using singer (hint, we link singer ;), but use whatever you are most comfortable with)
+4) Ingest files from object storage into Postgres using Singer, python or your programming language of choice.  Provided is a base python image in the `Dockerfile` along with a Postgres instance that can be created using docker compose.  Your ingestion process should create a table for each file.  Here are some helpful links if you are using singer (hint, we link singer ;), but use whatever you are most comfortable with.
     - CSV Singer tap: https://github.com/singer-io/tap-s3-csv
     - Postgres Singer target: https://github.com/datamill-co/target-postgres
 
