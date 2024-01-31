@@ -1,0 +1,15 @@
+# https://backstage.io/docs/features/software-catalog/descriptor-format#kind-component
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: data_engineering_assignment
+  description: | 
+    New hire challenge for Dataops
+  
+  annotations:
+    github.com/project-slug: SpotOnInc/data_engineering_assignment
+  
+spec:
+  type: docs
+  owner: group:default/dataops
+  lifecycle: experimental
