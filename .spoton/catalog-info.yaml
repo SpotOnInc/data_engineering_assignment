@@ -7,6 +7,7 @@ metadata:
     New hire challenge for Dataops
   
   annotations:
+    spoton.com/domain: domain:default/infrastructure
     github.com/project-slug: SpotOnInc/data_engineering_assignment
   
 spec:
