@@ -3,12 +3,14 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: data_engineering_assignment
-  description: | 
+  description: |
     New hire challenge for Dataops
-  
+
   annotations:
     github.com/project-slug: SpotOnInc/data_engineering_assignment
-  
+
+    spoton.com/domain: domain:default/infrastructure
+    spoton.com/subdomain: subdomain:default/data-platform
 spec:
   type: docs
   owner: group:default/dataops
