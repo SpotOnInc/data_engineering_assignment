@@ -9,7 +9,7 @@ metadata:
   annotations:
     github.com/project-slug: SpotOnInc/data_engineering_assignment
     spoton.com/domain: domain:default/infrastructure
-    spoton.com/subdomain: subdomain:default/data-platform
+    spoton.com/subdomain: domain:default/data-platform
 
 spec:
   type: docs
