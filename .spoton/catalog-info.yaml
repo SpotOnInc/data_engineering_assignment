@@ -13,5 +13,5 @@ metadata:
 
 spec:
   type: docs
-  owner: group:default/dataops
+  owner: group:default/data-platform
   lifecycle: experimental
